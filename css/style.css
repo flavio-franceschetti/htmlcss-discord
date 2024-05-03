@@ -8,16 +8,26 @@
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #23272a;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #23272a;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+li a {
+  color: #fff;
 }
 
 /* REUSABLE */
@@ -33,7 +43,7 @@ p {
 
 .btn {
   background-color: #fff;
-  padding: 10px 15px;
+  padding: 15px 25px;
   border-radius: 200px;
 }
 
@@ -43,7 +53,7 @@ header {
   background-image: url(../img/jumbo.png);
   background-size: cover;
 }
-
+/* NAV */
 .nav-bar {
   height: 80px;
   display: flex;
@@ -76,7 +86,7 @@ nav {
 }
 
 .btn-login {
-  color: #23272a;
+  padding: 10px 20px;
 }
 
 /* HERO SECTION */
@@ -123,14 +133,10 @@ nav {
   margin-top: 40px;
 }
 
-.btn-white {
-  color: #23272a;
-  padding: 15px 30px;
-}
-
 .btn-black {
+  color: #fff;
   background-color: #23272a;
-  padding: 15px 30px;
+  /* padding: 15px 30px; */
 }
 
 /* FEATURE SECTION */
@@ -156,19 +162,16 @@ nav {
   background-color: pink; */
 }
 
-.feature-content h3 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
 /* .feature-section:nth-child(even) {
   background-color: rgb(243, 243, 243);
 } */
 
 .last-feature-content {
-  height: 800px;
+  text-align: center;
   width: 100%;
-  background-color: green;
+  /* debug */
+  /* height: 800px;
+  background-color: green; */
 }
 
 /* FOOTER */
