@@ -1,0 +1,168 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* REUSABLE */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bg-gray {
+  background-color: rgb(243, 243, 243);
+}
+
+/* HEADER */
+
+.nav-bar {
+  background-color: aqua;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  padding: 4px 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  padding: 10px 15px;
+}
+
+#header-nav-list {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 15px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  background-color: blue;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.hero-content {
+  width: 65%;
+  height: 400px;
+  background-color: pink;
+}
+
+/* FEATURE SECTION */
+
+.feature-block {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-img {
+  width: 55%;
+  height: 400px;
+  background-color: rgb(47, 188, 253);
+}
+
+.feature-content {
+  width: 45%;
+  height: 400px;
+  background-color: pink;
+}
+
+/* .feature-section:nth-child(even) {
+  background-color: rgb(243, 243, 243);
+} */
+
+.last-feature-content {
+  height: 800px;
+  width: 100%;
+  background-color: green;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #23272a;
+  min-height: 500px;
+}
+
+/* FIRST SECTION FOOTER */
+
+.first-footer-section {
+  padding: 20px 0;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 20px;
+
+  display: flex;
+  gap: 5px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.first-column {
+  width: 30%;
+  height: 400px;
+}
+
+.second-column-section {
+  display: flex;
+  gap: 5px;
+  width: 70%;
+  height: 400px;
+}
+
+.col-social {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(228, 58, 11);
+}
+
+.col-link {
+  width: 25%;
+  height: 100%;
+  background-color: green;
+}
+
+/* SECOND SECTION FOOTER */
+
+.second-footer-section {
+  background-color: aquamarine;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  background-color: rgb(251, 147, 147);
+}
+
+.footer-btn {
+  background-color: rgb(251, 147, 147);
+  border: none;
+  cursor: pointer;
+}
