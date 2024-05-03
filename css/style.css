@@ -126,7 +126,7 @@ nav {
   text-align: center;
 }
 
-/* BTN */
+/* BTN HERO */
 
 .fa-down-long {
   margin-right: 6px;
@@ -161,6 +161,10 @@ nav {
   /* debug */
   /* height: 400px;
   background-color: rgb(47, 188, 253); */
+}
+
+.feature-img img {
+  width: 100%;
 }
 
 .feature-content {
