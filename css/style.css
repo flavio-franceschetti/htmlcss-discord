@@ -60,6 +60,8 @@ li a {
 header {
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /* NAV */
 .nav-bar {
