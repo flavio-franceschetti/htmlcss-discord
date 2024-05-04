@@ -36,6 +36,11 @@ h5 {
 
 li a {
   color: #fff;
+  font-weight: 600;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 /* REUSABLE */
@@ -53,6 +58,11 @@ li a {
   background-color: #fff;
   padding: 15px 25px;
   border-radius: 200px;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* HEADER */
@@ -97,6 +107,11 @@ nav {
 
 .btn-login {
   padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-login:hover {
+  color: #5865f2;
 }
 
 /* HERO SECTION */
@@ -147,6 +162,14 @@ nav {
   color: #fff;
   background-color: #23272a;
   /* padding: 15px 30px; */
+}
+
+.btn-black:hover {
+  background-color: #303437;
+}
+
+.btn-white:hover {
+  color: #5865f2;
 }
 
 /* FEATURE SECTION */
@@ -311,4 +334,9 @@ footer {
   background-color: #5865f2;
   color: #fff;
   padding: 10px 20px;
+  font-weight: 600;
+}
+
+.btn-singin:hover {
+  background-color: #7580f1;
 }
