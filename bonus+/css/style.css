@@ -1,0 +1,314 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #23272a;
+}
+
+a {
+  text-decoration: none;
+  color: #23272a;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+li a {
+  color: #fff;
+}
+
+/* REUSABLE */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bg-gray {
+  background-color: rgb(243, 243, 243);
+}
+
+.btn {
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 200px;
+}
+
+/* HEADER */
+
+header {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* NAV */
+.nav-bar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  /* debug */
+  /* background-color: aqua; */
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 2px;
+  /* debug */
+  /* background-color: orange; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* DEBUG */
+  padding: 10px 15px;
+}
+
+#header-nav-list {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 40px;
+}
+
+.btn-login {
+  padding: 10px 20px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* debug */
+  /* background-color: blue; */
+}
+
+.hero-content {
+  width: 40%;
+  color: #fff;
+  /* debug */
+  /* height: 400px;
+  background-color: pink; */
+}
+
+.hero-content h1 {
+  font-size: 52px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  text-align: center;
+}
+
+/* BTN HERO */
+
+.fa-down-long {
+  margin-right: 6px;
+  /* color: #23272a; */
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #23272a;
+  /* padding: 15px 30px; */
+}
+
+/* FEATURE SECTION */
+
+.feature-block {
+  padding: 62px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.feature-img {
+  width: 55%;
+  /* debug */
+  /* height: 400px;
+  background-color: rgb(47, 188, 253); */
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.feature-content {
+  width: 25%;
+  /* debug
+  height: 400px;
+  background-color: pink; */
+}
+
+/* .feature-section:nth-child(even) {
+  background-color: rgb(243, 243, 243);
+} */
+
+.last-feature-content {
+  text-align: center;
+  width: 100%;
+  padding: 62px 0;
+  /* debug */
+  /* height: 800px;
+  background-color: green; */
+}
+
+/* .last-feature-content:after {
+  content: url(../img/stars.svg);
+  position: relative;
+  bottom: 228px;
+} */
+
+.cta-section {
+  margin: 40px 0 60px 0;
+}
+
+.cta-section img {
+  position: relative;
+  top: 20px;
+  width: 600px;
+}
+
+.cta-section h5 {
+  margin-bottom: 50px;
+}
+.btn-blue {
+  background-color: #5865f2;
+  color: #fff;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #23272a;
+  min-height: 500px;
+  padding: 30px 0;
+}
+
+/* FIRST SECTION FOOTER */
+
+.first-footer-section {
+  padding: 20px 0;
+  border-bottom: 1px solid #5865f2;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 5px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.first-column {
+  width: 30%;
+  height: 400px;
+}
+
+.second-column-section {
+  display: flex;
+  gap: 5px;
+  width: 70%;
+}
+
+.col-social {
+  width: 100%;
+  /* debug */
+  /* height: 100%;
+  background-color: rgb(228, 58, 11); */
+}
+
+.col-social h4 {
+  color: #5865f2;
+}
+
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.lang-selector img {
+  width: 30px;
+}
+
+.social-icons {
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.fa-brands {
+  color: #fff;
+  font-size: 20px;
+}
+
+.col-link {
+  width: 25%;
+  /* debug */
+  /* height: 100%;
+  background-color: green; */
+}
+
+.footer-link-title {
+  color: #5865f2;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.col-link ul {
+  list-style: none;
+  line-height: 2.4;
+}
+
+/* SECOND SECTION FOOTER */
+
+.second-footer-section {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  /* debug */
+  /* background-color: aquamarine; */
+}
+
+.btn-singin {
+  background-color: #5865f2;
+  color: #fff;
+  padding: 10px 20px;
+}
