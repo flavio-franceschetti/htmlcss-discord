@@ -52,6 +52,7 @@ li a:hover {
 
 .bg-gray {
   background-color: rgb(243, 243, 243);
+  position: relative;
 }
 
 .btn {
@@ -206,7 +207,8 @@ nav {
 .last-feature-content {
   text-align: center;
   width: 100%;
-  padding: 62px 0;
+
+  padding-top: 50px;
   /* debug */
   /* height: 800px;
   background-color: green; */
@@ -217,10 +219,6 @@ nav {
   position: relative;
   bottom: 228px;
 } */
-
-.cta-section {
-  margin: 40px 0 60px 0;
-}
 
 .cta-section img {
   position: relative;
@@ -339,4 +337,25 @@ footer {
 
 .btn-singin:hover {
   background-color: #7580f1;
+}
+
+/* WAVES TEST */
+
+.waves-padding {
+  padding: 150px 0;
+}
+
+.wave-1hkxOo-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.wave-1hkxOo-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotate(180deg);
 }
